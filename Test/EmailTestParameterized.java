@@ -20,7 +20,7 @@ public class EmailTestParameterized{
         this.expected = expected;
     }
 
-    @org.junit.runners.Parameterized.Parameters
+    @Parameterized.Parameters
     public static Collection<Object> input() {
 
         return Arrays.asList(new Object[][]{{"abc@yahoo.com", true},
