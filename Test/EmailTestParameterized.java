@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.Collection;
 
 
-@RunWith(org.junit.runners.Parameterized.class)
+@RunWith(Parameterized.class)
 public class EmailTestParameterized{
     UserRegistration user = new UserRegistration();
     private String emailTest;
